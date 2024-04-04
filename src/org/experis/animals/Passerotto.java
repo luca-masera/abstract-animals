@@ -1,6 +1,10 @@
 package org.experis.animals;
 
 public class Passerotto extends Animale implements AnimaleVolante{
+    public Passerotto(String name) {
+        super(name);
+    }
+
     @Override
     public void verso() {
         System.out.println("Il verso del passerotto è: Cip Cip");

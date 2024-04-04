@@ -1,6 +1,10 @@
 package org.experis.animals;
 
 public class Cane extends Animale{
+    public Cane(String name) {
+        super(name);
+    }
+
     @Override
     public void verso() {
         System.out.println("Il verso del cane è: Bau");
