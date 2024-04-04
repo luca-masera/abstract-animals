@@ -10,10 +10,14 @@ public class Main {
             animale.verso();
             animale.dormi();
 
+
             System.out.println("------------------------------");
 
             System.out.println(animale);
         }
+
+
     }
 }
+
 

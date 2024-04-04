@@ -10,4 +10,9 @@ public class Cane extends Animale{
     public void mangia() {
         System.out.println("Il cane mangia: carne.");
     }
+
+    @Override
+    public String toString() {
+        return ("Cane");
+    }
 }
